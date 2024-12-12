@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="signup-container">
+        <h2>Signup</h2>
+        <form action="/signup" method="post">
+            <div class="form-group">
+                <label for="username">Email</label>
+                <input type="text" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="bankid">bankid</label>
+                <input type="text" id="bankid" name="bankid" required>
+            </div>
+            <div class="form-group">
+                <label for="SSN">SSN</label>
+                <input type="text" id="SSN" name="SSN" required>
+            </div>
+            <div class="form-group">
+                <label for="SSN">name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">PhoneNumber</label>
+                <input type="text" id="phone" name="phone" required>
+            </div>
+            <div class="form-group">
+                <label for="amount">amount</label>
+                <input type="text" id="amount" name="amount" required>
+            </div>
+            <button type="submit">Signup</button>
+            <button type="verified">verified</button>
+        </form>
+    </div>
+</body>
+</html>
